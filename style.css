@@ -6,12 +6,13 @@
 body{
     padding:0;
     margin:0;
+    width:100vw;
 }
 
 
 .navbar{
     position: fixed;
-    width:100%;
+    width:100vw;
     background: transparent;
     z-index:1000;
     transition:background-color 0.4s ease-in-out;
@@ -92,17 +93,17 @@ color:black;
     margin:0;
 }
 .bgImgSection .bgImg {
-    background-image: url('img/bgImg2.jpg');
+    background-image: url('/img/bgImg2.jpg');
     background-position:center;
     background-size: cover;
-    width:100vw;
-    min-height:80vh;
+    width:100%;
+    min-height:100vh;
     filter: brightness(50%);
  
 }
 .bgImgSection .imgContent .row .content{
     position: absolute;
-    margin-top:-320px;
+    margin-top:-250px;
     margin-left: 0px;
     color: white;
 }
@@ -283,7 +284,7 @@ border-radius:7px;
 .statsSection .bgImg{
   height:400px;
   width:100%;
-  background-image: url('img/stats-bg.jpg');
+  background-image: url('/img/stats-bg.jpg');
   object-fit: cover;
 background-position:center;
 background-repeat: no-repeat;
